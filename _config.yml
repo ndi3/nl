@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+gems: [jekyll-paginate, jekyll-gist]
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
+
+# Setup
+title:            Lightning Network
+tagline:          'Scaling Bitcoin'
+description:      'decentralized system for instant, high-volume micropayments with no trusted third parties.'
+url:              https://lightning.network
+baseurl:          /
+
+author:
+  name:           'ndi3'
+  url:            https://lightning.network
+
+paginate:         5
+
+# Custom vars
+version:          0.5.9.1
+
+github:
+  repo:           https://github.com/poole/hyde
